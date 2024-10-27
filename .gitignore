@@ -1,0 +1,11 @@
+# Ignore pgadmin directory
+pgadmin/
+
+# Ignore postgres directory
+postgres/
+
+# Ignore all PDF files
+*.pdf
+
+# Ignore macOS system files
+.DS_Store
