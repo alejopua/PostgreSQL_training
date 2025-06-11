@@ -1,4 +1,4 @@
-# Curso de SQL
+# PostgreSQL
 
 Este repositorio contiene de SQL, para gestionar y manipular bases de datos relacionales desde conceptos básicos hasta avanzados, incluyendo la creación de tablas, inserción de datos, consultas, y la implementación de restricciones y validaciones.
 
