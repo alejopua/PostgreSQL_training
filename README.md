@@ -1,6 +1,6 @@
 # Curso de SQL
 
-Este repositorio contiene los archivos y ejercicios del curso de SQL. A lo largo del curso, aprenderás a utilizar SQL para gestionar y manipular bases de datos relacionales. El curso cubre desde conceptos básicos hasta avanzados, incluyendo la creación de tablas, inserción de datos, consultas, y la implementación de restricciones y validaciones.
+Este repositorio contiene de SQL, para gestionar y manipular bases de datos relacionales desde conceptos básicos hasta avanzados, incluyendo la creación de tablas, inserción de datos, consultas, y la implementación de restricciones y validaciones.
 
 ## Estructura del Repositorio
 
@@ -14,9 +14,9 @@ Este repositorio contiene los archivos y ejercicios del curso de SQL. A lo largo
 - **session/04-dataBase.sql**: Ejemplos de inserción de datos en una tabla.
 - **session/15-constrain_check.sql**: Ejemplos de cómo agregar y eliminar restricciones de verificación en tablas.
 
-## Contenido del Curso
+## Contenido
 
-1. **Introducción a SQL**: Conceptos básicos y sintaxis.
+1. **Conceptos**: Conceptos básicos y sintaxis.
 2. **Consultas Básicas**: `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
 3. **Funciones de Agregación**: `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`.
 4. **Joins**: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`.
@@ -42,9 +42,3 @@ Este repositorio contiene los archivos y ejercicios del curso de SQL. A lo largo
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes sugerencias o mejoras, por favor abre un issue o envía un pull request.
-
----
-
-### Descripción Corta
-
-Curso de SQL: Aprende a gestionar y manipular bases de datos relacionales con SQL. Incluye ejercicios prácticos y ejemplos de consultas, funciones de agregación, joins, subconsultas, restricciones y validaciones. Ideal para principiantes y avanzados.
