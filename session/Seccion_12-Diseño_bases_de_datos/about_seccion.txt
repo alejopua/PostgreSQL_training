@@ -1,0 +1,3 @@
+buenas practicas y estándares en cuanto a nombres de tablas, vistas y demás elementos de la base de datos.
+
+Al final, también leeremos un diagrama entidad-relación para que podamos comprender rápidamente cómo realizar algo similar
