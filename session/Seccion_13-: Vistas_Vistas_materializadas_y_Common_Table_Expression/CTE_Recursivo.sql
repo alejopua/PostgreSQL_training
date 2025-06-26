@@ -26,3 +26,29 @@ WITH RECURSIVE countdown( val ) AS (
   SELECT val + 1 FROM countdown WHERE val < 10
 )
 SELECT val FROM countdown ORDER BY val ASC;
+
+--------------------------------
+
+WITH RECURSIVE multiplication(multiplicand, multiplier, product) AS (
+  -- Seed: start at (5, 1, 1*1)
+  SELECT
+    5 AS multiplicand,
+    1 AS multiplier,
+    1 * 1 AS product
+
+  UNION ALL
+
+  -- Recursion: increment multiplier and compute the new product
+  SELECT
+    multiplicand,
+    multiplier + 1,
+    multiplicand * (multiplier + 1)
+  FROM multiplication
+  WHERE multiplier < 10
+)
+SELECT
+  multiplicand,
+  multiplier,
+  product
+FROM multiplication
+ORDER BY multiplier;
