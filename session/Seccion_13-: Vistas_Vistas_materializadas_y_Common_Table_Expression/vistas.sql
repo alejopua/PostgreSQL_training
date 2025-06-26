@@ -1,4 +1,4 @@
-CREATE VIEW number_claps_per_post AS
+CREATE  OR REPLACE VIEW number_claps_per_post AS
 SELECT 
 	date_trunc('weeks', posts.created_at) as weeks, 
 	COUNT(DISTINCT posts.post_id) AS number_of_posts,
