@@ -18,3 +18,8 @@ ORDER BY weeks DESC
 REFRESH MATERIALIZED VIEW number_claps_per_post_mat
 
 SELECT * FROM number_claps_per_post_mat
+
+-- more info https://www.postgresql.org/docs/8.3/sql-alterview.html
+
+-- para renombrar una materialized view
+ALTER MATERIALIZED VIEW post_per_week_with_total_claps_mat RENAME TO post_per_week_mat
