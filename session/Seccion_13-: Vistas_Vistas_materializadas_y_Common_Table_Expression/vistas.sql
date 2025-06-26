@@ -12,3 +12,6 @@ SELECT * FROM number_claps_per_post
 
 -- para borrar vista --> DROP VIEW number_claps_per_post
 -- more info https://www.postgresql.org/docs/current/sql-createview.html
+
+-- para renombrar una vista
+ALTER VIEW number_claps_per_post RENAME TO post_per_week
