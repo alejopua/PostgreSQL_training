@@ -34,7 +34,7 @@ WITH RECURSIVE multiplication(multiplicand, multiplier, product) AS (
   SELECT
     5 AS multiplicand,
     1 AS multiplier,
-    1 * 1 AS product
+    5 * 1 AS product
 
   UNION ALL
 
