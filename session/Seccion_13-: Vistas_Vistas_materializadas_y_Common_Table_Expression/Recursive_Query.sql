@@ -13,3 +13,13 @@ WITH RECURSIVE bosses AS (
 
 )
 SELECT * FROM bosses;
+
+
+
+SELECT
+	leader.name AS leader,
+	follower.name as follower
+FROM
+	followers f
+	INNER JOIN "user" leader ON leader.id = f.leader_id
+	INNER JOIN "user" follower ON follower.id = f.follower_id
