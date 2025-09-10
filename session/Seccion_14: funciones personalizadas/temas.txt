@@ -1,0 +1,14 @@
+Puntualmente veremos:
+
+1.Crear y reemplazar funciones
+2.Argumentos y tipos
+3.Diferentes sintaxis de cómo crearlas
+4.Valores de queries dentro de variables
+5.Registros completos hacia variables
+6.Uso de variables
+7.Cálculos
+8.Retorno
+9.Excepciones
+10.Condiciones
+
+Es básicamente plpgsql lo que usaremos de lenguaje para crear estas funciones, lo bueno es que es muy similar a un lenguaje de programación tradicional, que se use de forma estructurada.
