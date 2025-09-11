@@ -54,3 +54,5 @@ FROM
 	INNER JOIN jobs ON jobs.job_id = employees.job_id
 WHERE
 	employee_id = 206;
+
+  -- RAISE EXCEPTION 'No existe empleado con id %', empl_id;
